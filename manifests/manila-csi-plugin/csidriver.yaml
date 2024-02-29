@@ -3,6 +3,6 @@ kind: CSIDriver
 metadata:
   name: manila.csi.openstack.org
 spec:
-  attachRequired: false
+  attachRequired: true
   podInfoOnMount: false
 
